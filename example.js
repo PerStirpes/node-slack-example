@@ -34,6 +34,6 @@ slackEvents.on('reaction_added', (event, body) => {
 slackEvents.on('error', console.error);
 
 // Start a basic HTTP server
-slackEvents.start(3000).then(() => {
-  console.log(`server listening on port 3000`);
+slackEvents.start(4200).then(() => {
+  console.log(`server listening on port 4200`);
 });
